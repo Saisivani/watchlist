@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { WatchlistComponent } from './watchlist/watchlist.component';
+import { ShowDetailsComponent } from './show-details/show-details.component';
+import { ShowInfoComponent } from './show-info/show-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchComponent,
-    WatchlistComponent
+    WatchlistComponent,
+    ShowDetailsComponent,
+    ShowInfoComponent
   ],
   imports: [
     BrowserModule,
